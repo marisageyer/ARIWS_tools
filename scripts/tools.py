@@ -58,7 +58,7 @@ def hangman():
             print("\nThe magnetosphere is the plasma trapped in the closed magnetic field lines of the pulsar, and can be modelled as a doughnut-shape.")
             print("\nThis animation shows you what is going on ...")
             ## display animation2
-            movfile = os.path.join(tools_dir,'pulsar.mov')
+            movfile = os.path.join(tools_dir,'pulsar1.mov')
             #print(movfile)
             mov = open(movfile,'rb').read()
             data_url = "data:video/mp4;base64," + b64encode(mov).decode()
