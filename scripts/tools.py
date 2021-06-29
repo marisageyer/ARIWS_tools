@@ -42,8 +42,8 @@ def hangman():
             print("\nThat's right! The pulsar's light is dipping because of a companion passing in front of it.")
             print("\nAs you can see in this animation ... wait for it ...")
             ## display animation1
-            tools_dir = '/content/drive/Shareddrives/ARIWS_timedomain/scripts'
-            movfile1 = os.path.join(tools_dir,'pulsar1.mov')
+            tools_dir = '/content/ARIWS_tools/scripts'
+            movfile1 = os.path.join(tools_dir,'pulsar.mov')
             mov1 = open(movfile1,'rb').read()
             data_url = "data:video/mp4;base64," + b64encode(mov1).decode()
             display(HTML("""
