@@ -68,6 +68,13 @@ def hangman():
             </video>
             """ % data_url))
             print("The movie can also be found at http://www.jb.man.ac.uk/~bretonr/doublepulsar/movies/doublepulsar_eclipse.mov")
+            print("******************************************************************************")
+            print("******************************************************************************")
+            print("Now you can also view the video on the SARAO YouTube Channel
+                    to learn more about the Double Pulsar System:
+                    https://www.youtube.com/watch?v=QVxaXg8EQYo")
+            print("******************************************************************************")
+            print("******************************************************************************")
             break              
         guess = input("\n\nguess a character: ") 
         guesses += guess                    
